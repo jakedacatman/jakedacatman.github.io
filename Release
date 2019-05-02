@@ -1,0 +1,8 @@
+Origin: jakedacatman
+Label: jakedacatman's tweaks
+Suite: stable
+Version: 1.0
+Codename: net.jakedacatman.repo
+Architectures: iphoneos-arm
+Components: main
+Description: jakedacatman's tweaks and stuff
