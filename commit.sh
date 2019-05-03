@@ -1,8 +1,10 @@
-rm -r Packages*
+rm -rf Packages*
 
-dpkg-scanpackages -m ./debs /dev/null > Packages
+apt-ftparchive packages ./debs/ > .Packages;
+echo "zipping"
 bzip2 -fks Packages
 
-git add -a
-git commit -m "$*"
+git add --all
+git commit -m $1
 git push
+exit -;
