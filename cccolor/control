@@ -1,0 +1,9 @@
+Package: net.jakedacatman.cccolor
+Name: CCColor
+Depends: mobilesubstrate
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: Changes the background color of the control center.
+Maintainer: jakedacatman
+Author: jakedacatman
+Section: Tweaks
