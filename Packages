@@ -1,0 +1,14 @@
+Package: net.jakedacatman.cccolor
+Version: 0.0.1-5+debug
+Section: Tweaks
+Maintainer: jakedacatman
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Filename: ./debs/net.jakedacatman.cccolor_0.0.1-5+debug_iphoneos-arm.deb
+Size: 3728
+Installed-Size: 120
+MD5sum: b1138e0c330efad5ccd3a8d7a76b9ed5
+Description: Changes the background color of the control center.
+Name: CCColor
+Author: jakedacatman
+
