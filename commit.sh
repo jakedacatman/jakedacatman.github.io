@@ -2,7 +2,7 @@ rm -rf ./Packages*
 echo "" >> ./Packages
 
 
-dpkg-scanpackages -m ./debs/ > ./Packages;
+/var/mobile/jakedacatman.github.io/dpkg-scanpackages -m ./debs/ > ./Packages;
 echo "zipping"
 bzip2 -c9k ./Packages > ./Packages.bz2;
 
