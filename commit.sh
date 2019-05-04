@@ -1,6 +1,8 @@
 rm -rf Packages*
 echo "" >> Packages
 
+cp ./*/packages/* ./debs
+
 /var/mobile/jakedacatman.github.io/dpkg-scanpackages -m . /dev/null > Packages;
 echo "zipping"
 bzip2 -c9k Packages > Packages.bz2;
