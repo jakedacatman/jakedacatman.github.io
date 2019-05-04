@@ -1,0 +1,9 @@
+Package: net.jakedacatman.speedykrist
+Name: SpeedyKrist
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: Mine Krist on your phone. 
+Maintainer: jakedacatman
+Author: jakedacatman
+Section: Utilities
+Depends: ${LIBSWIFT}
