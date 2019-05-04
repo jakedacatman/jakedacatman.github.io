@@ -27,12 +27,12 @@
 #endif
 
 @class CCUIScrollView; 
-static void (*_logos_orig$_ungrouped$CCUIScrollView$setFrame$)(_LOGOS_SELF_TYPE_NORMAL CCUIScrollView* _LOGOS_SELF_CONST, SEL, CGRect*); static void _logos_method$_ungrouped$CCUIScrollView$setFrame$(_LOGOS_SELF_TYPE_NORMAL CCUIScrollView* _LOGOS_SELF_CONST, SEL, CGRect*); 
+static void (*_logos_orig$_ungrouped$CCUIScrollView$setFrame$)(_LOGOS_SELF_TYPE_NORMAL CCUIScrollView* _LOGOS_SELF_CONST, SEL, CGRect); static void _logos_method$_ungrouped$CCUIScrollView$setFrame$(_LOGOS_SELF_TYPE_NORMAL CCUIScrollView* _LOGOS_SELF_CONST, SEL, CGRect); 
 
 #line 7 "Tweak.xm"
 
 
-static void _logos_method$_ungrouped$CCUIScrollView$setFrame$(_LOGOS_SELF_TYPE_NORMAL CCUIScrollView* _LOGOS_SELF_CONST __unused self, SEL __unused _cmd, CGRect* arg) {
+static void _logos_method$_ungrouped$CCUIScrollView$setFrame$(_LOGOS_SELF_TYPE_NORMAL CCUIScrollView* _LOGOS_SELF_CONST __unused self, SEL __unused _cmd, CGRect arg) {
   NSInteger randRed = arc4random()%255;
   NSInteger randGreen = arc4random()%255;
   NSInteger randBlue = arc4random()%255;

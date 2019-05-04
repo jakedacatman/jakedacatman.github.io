@@ -5,7 +5,7 @@
 @end
 
 %hook CCUIScrollView
--(void) setFrame:(CGRect*)arg
+-(void) setFrame:(CGRect)arg
 {
   NSInteger randRed = arc4random()%255;
   NSInteger randGreen = arc4random()%255;

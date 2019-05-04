@@ -1,0 +1,42 @@
+Package: net.jakedacatman.cccolor
+Version: 0.0.1-5+debug
+Section: Tweaks
+Maintainer: jakedacatman
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Filename: ./debs/net.jakedacatman.cccolor_0.0.1-5+debug_iphoneos-arm.deb
+Size: 3728
+Installed-Size: 120
+MD5sum: b1138e0c330efad5ccd3a8d7a76b9ed5
+Description: Changes the background color of the control center.
+Name: CCColor
+Author: jakedacatman
+
+Package: net.jakedacatman.cccolor
+Version: 0.0.1-6+debug
+Section: Tweaks
+Maintainer: jakedacatman
+Depends: mobilesubstrate
+Architecture: iphoneos-arm
+Filename: ./cccolor/packages/net.jakedacatman.cccolor_0.0.1-6+debug_iphoneos-arm.deb
+Size: 3776
+Installed-Size: 120
+MD5sum: 76e1026ec0927d70e321d3faea07ccb4
+Description: Changes the background color of the control center.
+Name: CCColor
+Author: jakedacatman
+
+Package: net.jakedacatman.speedykrist
+Version: 0.0.1-1+debug
+Section: Utilities
+Maintainer: jakedacatman
+Depends: com.modmyi.libswift4 (>= 4.0.3)
+Architecture: iphoneos-arm
+Filename: ./speedykrist/packages/net.jakedacatman.speedykrist_0.0.1-1+debug_iphoneos-arm.deb
+Size: 17370
+Installed-Size: 128
+MD5sum: 39d56a4cfb0b160733ebd617a2ab47ad
+Description: Mine Krist on your phone.
+Name: SpeedyKrist
+Author: jakedacatman
+

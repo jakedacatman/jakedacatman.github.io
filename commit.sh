@@ -5,7 +5,7 @@ echo "" >> Packages
 echo "zipping"
 bzip2 -c9k Packages > Packages.bz2;
 
-git add -a
+git add . 
 git commit -m $*
 git push
 exit 0;
