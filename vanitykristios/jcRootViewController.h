@@ -1,3 +1,0 @@
-@interface jcRootViewController : UITableViewController
-
-@end
