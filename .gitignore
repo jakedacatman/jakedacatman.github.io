@@ -1,4 +1,4 @@
 *.sh
 ./*/packages
-.theos
-cccolor/.theos
+.theos/
+*/.theos/
