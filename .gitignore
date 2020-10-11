@@ -1,4 +1,9 @@
 *.sh
 ./*/packages
+<<<<<<< HEAD
 .theos/
 */.theos/
+=======
+.theos
+cccolor/.theos
+>>>>>>> 2061a1b4e5cbdddec1d0b4a89d6e28ffea54a9ba
